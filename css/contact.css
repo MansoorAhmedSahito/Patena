@@ -1,0 +1,503 @@
+@font-face {
+  font-family: 'Futura LT';
+  src: url('../fonts/FuturaLT.woff2') format('woff2'),
+  url('../fonts/FuturaLT.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  }
+
+*{
+  outline: none!important;
+}
+body {
+  word-break: break-word;
+  font:15px/22px 'Lato', sans-serif;
+  color:#333333;
+  overflow-x:hidden;
+  }
+a {
+  text-decoration:none;
+  color:#ec1d25;
+}
+a:hover, a:focus {
+  text-decoration:none;
+  color:#333333;
+}
+a:hover {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+} 
+img {
+  max-width:100%;
+}
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus, select:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="number"]:focus {transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  outline:none;}
+select, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea, input[type="tel"] {/*-webkit-appearance: none;-moz-appearance: none;appearance: none;*/}
+ul {margin: 0!important;
+  padding:0;
+  list-style-type:none;
+}
+
+@font-face{
+  font-family:'Fonts Awesome';
+  src:url(../fonts/fontawesome-webfont.eot);
+  src:url(../fonts/fontawesome-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/fontawesome-webfont.woff) format("woff"),url(../fonts/fontawesome-webfont.ttf) format("truetype"),url(../fonts/fontawesome-webfont.svg#fontawesome-webfont) format("svg");font-weight:400;font-style:normal
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  } 
+p,a{
+  font-size: 16px;margin: 0;
+}
+
+.inner-banner-contact{
+  background: url(../images/banner\ try.jpg); 
+ align-items: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ max-height: 700px;
+ overflow: hidden;
+ padding-top: 450px;
+ position: relative;
+ z-index: 0;
+}
+
+.inner-banner-contact:before {
+ background: linear-gradient(90deg,rgba(0, 73, 66, 0.9),rgba(0, 64, 58, 0.75) 20%,hsla(0,0%,100%,0));
+ content: "";
+ height: 100%;
+ left: 0;
+ position: absolute;
+ top: 0;
+ width: 100%;
+ z-index: -1;
+}
+.abouthead{
+ position: absolute;
+}
+.abouthead h1 {
+ color: white;
+ margin-left: 42px;
+ margin-top: -229px;
+ font-size: 36px;
+ font-family: 'Font Awesome 5 Pro';
+
+}
+.abouthead p{
+ font-family: system-ui;
+ color: white;
+ margin-left: 47px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 350px){
+  .abouthead h1{margin-left: 87px; margin-top: -307px; font-size: 31px;}
+  .abouthead p{margin-left: 2px; text-align: center;}
+}
+
+@media only screen and (min-width: 351px) and (max-width: 374px){
+  .abouthead h1{margin-left: 106px; margin-top: -300px; font-size: 41px;}
+  .abouthead p{margin-left: 4px; text-align: center;}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 389px){
+  .abouthead h1{margin-left: 118px; margin-top: -297px;}
+  .abouthead p{margin-left: 4px; text-align: center;}
+}
+
+@media only screen and (min-width: 390px) and (max-width: 411px){
+  .abouthead h1{margin-left: 129px; margin-top: -297px;}
+  .abouthead p{margin-left: 4px; text-align: center;}
+} 
+
+@media only screen and (min-width: 412px) and (max-width: 413px){
+  .abouthead h1{margin-left: 144px; margin-top: -297px;}
+  .abouthead p{margin-left: 0px; text-align: center;}
+}
+
+@media only screen and (min-width: 414px) and (max-width: 429px){
+  .abouthead h1{margin-left: 137px; margin-top: -297px;}
+  .abouthead p{margin-left: 0px; text-align: center;}
+}
+
+@media only screen and (min-width: 430px) and (max-width: 539px){
+  .abouthead h1{margin-left: 157px; margin-top: -297px;}
+  .abouthead p{margin-left: 0px; text-align: center;}
+}
+
+@media only screen and (min-width: 540px) and (max-width: 767px){
+  .abouthead h1{margin-left: 207px; margin-top: -297px;}
+  .abouthead p{margin-left: 0px; text-align: center;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 819px){
+  .abouthead h1{ margin-top: -273px;}
+}
+
+@media only screen and (min-width: 820px) and (max-width: 911px){
+  .abouthead h1{ margin-top: -273px;}
+}
+
+@media only screen and (min-width: 912px) and (max-width: 1024px){
+  .abouthead h1{ margin-top: -273px;}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+  .abouthead h1{ margin-top: -237px;}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1500px){
+
+}
+
+.contactPgSec{
+  padding: 5% 3%;
+  background-color: #fff;
+  z-index: 9;
+  font-family: 'Futura LT';
+}
+.contactPgSec .secHead{
+  text-align: left;
+}
+.contactPgSec .secHead h6{
+  font-family: math;
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.contactPgSec .secHead h2 {
+  font-family: 'Font Awesome 5 Brands';
+  color: #000;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+.contactPgSec .secHead p{
+  color: #000;
+  margin-bottom: 20px;
+  font-family: math;
+}
+.contactPgSec .contactForm form .form-control {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: transparent;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+.contactPgSec .contactForm form textarea {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: transparent;
+  width: 100%;
+  padding: 10px 20px;
+  resize: none;
+  margin-bottom: 10px;
+}
+.contactPgSec .contactForm form button {
+  width: 100%;
+  border: none;
+  padding: 10px;
+
+  border-radius: 10px;
+  background:#16423C ;
+  color: white;
+}
+.contactPgSec .contactDet .secHead {
+  margin-bottom: 50px;
+}
+.contactPgSec .contactDet .contactList ul li {
+  position: relative;
+  padding-left: 100px;
+  margin-bottom: 50px;
+}
+.contactPgSec .contactDet .contactList ul li:last-child {
+  margin: 0;
+}
+.contactPgSec .contactDet .contactList ul li i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+  border-radius: 50%
+  ;color: #16423C;
+}
+.contactPgSec .contactDet .contactList ul li span h5 {
+  font-family: 'Futura LT';
+  font-size: 30px;
+  color: #000;
+  margin: 0 0 10px 0px;
+}
+.contactPgSec .contactDet .contactList ul li span a {
+  font-family: math;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+.contactPgSec .contactDet .contactList ul li span p {
+  font-family: math;
+  font-size: 18px;
+  color: #000;
+}
+.contactPgSec .contactDet .socialIcons 
+{
+  margin-top: 45px;
+}
+.contactPgSec .contactDet .socialIcons h2 {
+  
+  font-family: math;
+  font-size: 40px
+  ;margin-bottom: 20px;
+  color: #000;
+}
+/* .contactPgSec .socialIcons {
+  margin-top: 20px;
+} */
+.contactPgSec .socialIcons ul li i {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 50%;
+  background:#16423C ;
+  transition: 1s all;
+}
+.contactPgSec .socialIcons ul li i:hover {
+  transform: rotate(360deg);
+  background: #000;
+}
+.contactPgSec .socialIcons ul li + li i{
+  background:#16423C ;
+}
+.contactPgSec .socialIcons ul li + li +li i{
+  background: #16423C;
+}
+.contactPgSec .socialIcons ul li + li + li + li i{
+  background:#16423C ;
+}
+.list-inline {
+  gap: 9px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.form-control {
+  display: block;
+  width: 100% !important;
+}
+i.fa.fa-phone {
+  rotate: 108deg;
+}
+
+ @media only screen and (min-width: 200px) and (max-width: 350px){
+  .contactPgSec .secHead h6 {margin-top: 15px;}
+  .contactPgSec .secHead h2 {font-size: 32px;}
+  .contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+  .contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  div#accordionExample {
+    margin-top: 60px;
+}
+.contactDet {
+  margin-top: 40px;
+}
+}
+
+@media only screen and (min-width: 351px) and (max-width: 374px){
+  .contactPgSec .secHead h6 {margin-top: 15px;}
+  .contactPgSec .secHead h2 {font-size: 32px;}
+  .contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+  .contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  div#accordionExample {
+    margin-top: 60px;
+}
+.contactDet {
+  margin-top: 40px;
+}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 389px){
+  .contactPgSec .secHead h6 {margin-top: 15px;}
+  .contactPgSec .secHead h2 {font-size: 32px;}
+  .contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+  .contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  .banner1 img {margin-top: 65px;}
+  div#accordionExample {
+    margin-top: 60px;
+}
+.contactDet {
+  margin-top: 40px;
+}
+}
+
+@media only screen and (min-width: 390px) and (max-width: 411px){
+  .contactPgSec .secHead h6 {margin-top: 15px;}
+  .contactPgSec .secHead h2 {font-size: 32px;}
+  .contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+  .contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  div#accordionExample {
+    margin-top: 60px;
+}
+.contactDet {
+  margin-top: 40px;
+}
+} 
+
+@media only screen and (min-width: 412px) and (max-width: 413px){
+  .contactPgSec .secHead h6 {margin-top: 15px;}
+  .contactPgSec .secHead h2 {font-size: 32px;}
+  div#accordionExample {
+    margin-top: 60px;
+}
+.contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+.contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  .contactDet {
+    margin-top: 40px;
+}
+}
+
+@media only screen and (min-width: 414px) and (max-width: 429px){
+  .contactPgSec .secHead h6 {margin-top: 15px;}
+  div#accordionExample {
+    margin-top: 60px;
+}
+  .contactPgSec .secHead h2 {font-size: 32px;}
+  .contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+  .contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  .contactDet {
+    margin-top: 40px;
+}
+}
+
+@media only screen and (min-width: 430px) and (max-width: 539px){
+  .contactPgSec .secHead h6 {margin-top: 15px;}
+  .contactPgSec .secHead h2 {font-size: 32px;}
+  div#accordionExample {
+    margin-top: 60px;
+}
+.contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+.contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  .contactDet {
+    margin-top: 40px;
+}
+}
+
+@media only screen and (min-width: 540px) and (max-width: 767px){
+  .contactPgSec .secHead h6 {margin-top: 15px;}
+  .contactPgSec .secHead h2 {font-size: 32px;}
+  .contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+  .contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  div#accordionExample {
+    margin-top: 60px;
+}
+.contactDet {
+  margin-top: 40px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 819px){
+  .contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+  .contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  div#accordionExample {
+    margin-top: -20px;
+}
+
+}
+
+@media only screen and (min-width: 820px) and (max-width: 911px){
+  .contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+  .contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  div#accordionExample {
+    margin-top: -20px;
+}
+
+}
+
+@media only screen and (min-width: 912px) and (max-width: 1024px){
+  .contactPgSec .contactDet .contactList ul li {padding-left: 100px;}
+  .contactPgSec .contactDet .contactList ul li i {left: 0px;}
+  div#accordionExample {
+    margin-top: -20px;
+}
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+  div#accordionExample {
+    margin-top: -20px;
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1500px){
+  .contactDet {
+    margin-left: 70px;
+  }
+  div#accordionExample {
+    margin-top: -20px;
+}
+}
+
+
+div#accordionExample {
+  background-color: #16423C;
+  margin-bottom: 20px;
+  /* margin-top: -20px; */
+}
+.accordions{
+  padding: 64px;
+  padding-top: 39px;
+  font-family:   ;
+
+
+}
+.heading {
+  text-align: center;
+  padding-top: 47px;
+  font-family: math;
+  color: white;
+} 
+.accordion-item {
+  margin-bottom: 21px;
+
+}
+
+/* 
+.accordion-button:not(.collapsed) {
+  color: white;
+  margin-left: 0px;
+  width: 100%;
+  margin-top: 0px;
+  background-color: #003154;
+} */
+/* .accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+  border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+} */
+.accordion-button:not(.collapsed) {
+  color: #ffffff !important;
+  background-color: #338797 !important;
+  box-shadow: none I !important;
+}
+.headingh1 {
+  font-size: 30px;
+}
+
+.h1, h1 {
+  font-size: 2.1rem;
+}
+.accordion-body{
+  font-family: 'Times New Roman', Times, serif;
+}
